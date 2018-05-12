@@ -1,0 +1,21 @@
+/*
+** premier css
+*/
+
+p {
+	color: blue;
+	font-size: 19;
+}
+
+h1 {
+	color: red;
+}
+
+em {
+	color: rgb(103, 19, 182)
+}
+
+h2,
+h3 {
+	color: purple;
+}

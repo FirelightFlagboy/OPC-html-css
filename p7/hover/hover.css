@@ -1,0 +1,22 @@
+.th
+{
+	color: red;
+}
+.th:hover
+{
+	color: green;
+}
+.th:active
+{
+	background-color: brown;
+}
+.th:focus
+{
+	background-color: blue;
+}
+.bk:hover
+{
+	color: silver;
+	text-shadow: 2px 0px 2px;
+	background-image: url('../../ac1/fbenneto_min.jpg');
+}

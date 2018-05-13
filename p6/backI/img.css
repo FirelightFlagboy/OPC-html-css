@@ -1,0 +1,11 @@
+body
+{
+	background-image: url("../../ac1/fbenneto_min.jpg");
+}
+
+p
+{
+	opacity: 0.5;
+	background-color: black;
+	color : white
+}

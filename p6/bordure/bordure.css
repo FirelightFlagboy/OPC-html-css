@@ -1,0 +1,9 @@
+.bordure_hb
+{
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+h1
+{
+	border: 2px dotted blue
+}

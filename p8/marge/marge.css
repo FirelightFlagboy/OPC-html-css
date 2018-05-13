@@ -1,0 +1,29 @@
+#p1
+{
+	border: 1px solid black;
+	text-align: justify;
+	margin: auto;
+	padding: 6px;
+	width: 50%;
+}
+#p2
+{
+	border: 1px solid black;
+	width: 100px;
+	height: 100px;
+	overflow: scroll;
+}
+#p3
+{
+	border: 1px solid black;
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+}
+#p4
+{
+	border: 1px solid black;
+	width: 100px;
+	height: 100px;
+	word-wrap: break-word;
+}

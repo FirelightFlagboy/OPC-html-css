@@ -1,0 +1,19 @@
+h1
+{
+	background-color: silver;
+}
+p
+{
+	background-color: silver;
+	width: 50%;
+	min-width: 400px;
+	border: 2px solid black;
+	padding: 12px;
+	margin:5px;
+	text-align: justify;
+}
+
+h1
+{
+	width: 10%
+}

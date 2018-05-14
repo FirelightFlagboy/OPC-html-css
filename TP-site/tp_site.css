@@ -1,0 +1,159 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   tp_site.css                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: fbenneto <fbenneto@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2018/05/14 16:30:16 by fbenneto          #+#    #+#             */
+/*   Updated: 2018/05/14 16:37:15 by fbenneto         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-decoration: none;
+}
+
+header
+{
+	text-align: center;
+}
+
+footer
+{
+	position: absolute;
+	bottom: 0;
+	background-color: rgb(53, 53, 53);
+	color: white;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+footer a
+{
+	text-decoration: none;
+	color: white;
+}
+
+footer ul
+{
+	list-style-type: none;
+	text-decoration: none;
+}
+
+footer a:hover
+{
+	text-decoration: underline;
+}
+
+footer div
+{
+	margin: 10px;
+}
+
+section
+{
+	display: flex;
+}
+
+section article
+{
+	flex: 9;
+	margin: 10px;
+}
+
+section aside
+{
+	flex: 1.2;
+	margin: 10px;
+	padding: 10px;
+	font-family: Helvetica;
+	background-color: rgba(24, 24, 24, 0.90);
+	color: rgba(255,255,255,0.85);
+	border-radius: 5px;
+}
+
+#menu_nav ul
+{
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 25%;
+	margin-right: 25%;
+	justify-content: space-around;
+}
+
+#menu_nav a
+{
+	text-decoration: none;
+	border: 0px white solid transparent;
+	font-style: italic;
+	color: grey;
+	font-weight: lighter;
+	font-style: italic;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+#banner
+{
+	background: url("img/42_school_banner.jpeg") no-repeat;
+	height: 637px;
+	position: relative;
+	background-position: center;
+	background-size: cover;
+}
+
+#banner_descipt
+{
+	color: rgba(255,255,255,0.85);
+	position: absolute;
+	/* border-radius: 0px 0px 5px 5px; */
+	text-align: right;
+	width: 100%;
+	bottom: 0;
+	background-color: rgba(24, 24, 24, 0.8);
+}
+
+
+#img_profil
+{
+	text-align: center;
+}
+
+#banner_descipt p
+{
+	display: inline;
+	padding-right: 5px;
+}
+
+.index_nav:hover
+{
+	background-color: rgba(128, 128, 128, 0.33);
+}
+
+.current
+{
+	text-decoration: none;
+	font-weight: bold;
+	color: white !important;
+	background-color: #d52349;
+}
+
+@font-face
+{
+	font-family: "fontawesome";
+	src : url("font/fontawesome-webfont.eot");
+	src : url("font/fontawesome-webfont.eot?#iefix") format('embedded-opentype'),
+	url("font/FontAwesome.otf") format('otf'),
+	url("font/fontawesome-webfont.svg#fontawesome-webfont") format('svg'),
+	url("font/fontawesome-webfont.ttf") format('truetype'),
+	url("font/fontawesome-webfont.woff") format('woff'),
+	url("font/fontawesome-webfont.woff2") format('woff2');
+}

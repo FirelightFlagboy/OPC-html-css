@@ -1,17 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   tp_site.css                                        :+:      :+:    :+:   */
+/*   main.css                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fbenneto <fbenneto@student.42.fr>          +#+  +:+       +#+        */
+/*   By: fbenneto <f.benneto@student.42.fr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/05/14 16:30:16 by fbenneto          #+#    #+#             */
-/*   Updated: 2018/05/14 16:37:15 by fbenneto         ###   ########.fr       */
+/*   Created: 2018/05/14 19:37:07 by fbenneto          #+#    #+#             */
+/*   Updated: 2018/05/14 22:22:41 by fbenneto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+
+* {
+	margin: 0;
+}
+
+html, body
+{
+	height: 100%;
+}
+
 body
 {
+	background-color: #f7f7f7;
 	margin: 0;
 	padding: 0;
 	font-family: 'Source Sans Pro', sans-serif;
@@ -21,12 +32,60 @@ body
 header
 {
 	text-align: center;
+	margin: 10px;
+}
+
+header h1
+{
+	padding: 10px;
+}
+
+header.major
+{
+	top: 20px;
+	width: 100%;
+	position: relative;
+	text-align: center;
+	border-top: solid 1px #ccc;
+}
+
+header.major h2
+{
+	background: #f7f7f7;
+	position: relative;
+	top: -0.65em;
+	display: inline;
+	margin: 0;
+	padding: 0 1em 0 1em;
+}
+
+section
+{
+	display: flex;
+}
+
+section article
+{
+	background-color: white;
+	flex: 9;
+	margin: 10px;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+section aside
+{
+	flex: 1.2;
+	margin: 10px;
+	padding: 10px;
+	font-family: Helvetica;
+	background-color: rgba(24, 24, 24, 0.90);
+	color: rgba(255,255,255,0.85);
+	border-radius: 5px;
 }
 
 footer
 {
-	position: absolute;
-	bottom: 0;
 	background-color: rgb(53, 53, 53);
 	color: white;
 	width: 100%;
@@ -57,26 +116,9 @@ footer div
 	margin: 10px;
 }
 
-section
+footer h3
 {
-	display: flex;
-}
-
-section article
-{
-	flex: 9;
-	margin: 10px;
-}
-
-section aside
-{
-	flex: 1.2;
-	margin: 10px;
-	padding: 10px;
-	font-family: Helvetica;
-	background-color: rgba(24, 24, 24, 0.90);
-	color: rgba(255,255,255,0.85);
-	border-radius: 5px;
+	padding: 5px;
 }
 
 #menu_nav ul
@@ -144,6 +186,19 @@ section aside
 	font-weight: bold;
 	color: white !important;
 	background-color: #d52349;
+}
+
+.page-wrap
+{
+	min-height: 100%;
+	margin: 0 auto -142px;
+}
+
+.desciption
+{
+	border-top: 1px solid #726e72;
+	padding-top: 4px;
+	margin: 4px;
 }
 
 @font-face

@@ -3,6 +3,7 @@
 
 <head>
 	<meta charset="utf-8" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="main.css" />
 	<title>Florian Bennetot</title>
 </head>
@@ -12,10 +13,9 @@
 		<!-- header of the site -->
 		<header>
 
-			<!-- <object id="logo42" data="img/42_logo.svg" type="image/svg+xml">
+			<object id="logo42" data="img/42_logo.svg" type="image/svg+xml" width="60px" height="60px">
 				<img src="img/42_logo.png" alt="logo de 42">
-			</object> -->
-
+			</object>
 			<h1 id="main_title">Mon Site</h1>
 			<nav id="menu_nav">
 				<ul>
@@ -36,42 +36,77 @@
 
 		</header>
 
+		<!-- #include file="test.html" -->
 		<div id="banner"></div>
 		<!-- home page article -->
-		<section>
-			<!-- <article>
-				<h1>un peux plus sur moi</h1>
-				<p>un peux plus sur moi</p>
-				<p>toujour du text</p>
-				<p>encore du text...</p>
-			</article>
-			<aside>
-				<h1>Plus d'info</h1>
-				<p id="img_profil">
-					<a href="img/fbenneto_profil.jpg">
-						<img src="img/fbenneto_profil_min.jpg" alt="photo profil fbenneto">
-					</a>
-				</p>
-				<p class="desciption">Bonjour je suis Florian Bennetot</p>
-				<p class="desciption">née le 29 novembre 1999</p>
-			</aside> -->
+		<section class="portfolio article">
 			<header class=major>
 				<h2>Portfolio</h2>
 			</header>
+			<div class="row">
+				<div class="small_box">
+					<section class="box">
+						<a href="blog.html" class="word">
+							<p>IRL</p>
+						</a>
+						<header>
+							<h3>Mon Blog</h3>
+						</header>
+						<p>Aller jetter un cout d'oeil sur mon blog</p>
+						<footer>
+							<a href="blog.html" class="button alt">En savoir plus</a>
+						</footer>
+					</section>
+				</div>
+				<div class="small_box">
+					<section class="box">
+						<a href="cv.html" class="word">
+							<p>CV</p>
+						</a>
+						<header>
+							<h3>Mon Curriculum Vitae</h3>
+						</header>
+						<p>Vous etes recruteur, aller voir mon CV</p>
+						<footer>
+							<a href="cv.html" class="button alt">En savoir plus</a>
+						</footer>
+					</section>
+				</div>
+				<div class="small_box">
+					<section class="box">
+						<a href="contact.html" class="word">
+							<p>CTE</p>
+						</a>
+						<header>
+							<h3>Contacter-Moi</h3>
+						</header>
+						<p>Si vous souhaiter me contacter</p>
+						<footer>
+							<a href="contact.html" class="button alt">En savoir plus</a>
+						</footer>
+					</section>
+				</div>
+			</div>
 		</section>
 		<!-- footer of the site -->
-		<footer>
+		<footer id="main_footer">
 			<div id="uselink">
 				<h3>Réseau sociaux :</h3>
-				<ul>
+				<ul class="social">
 					<li>
-						<a target="_blank" href="https://www.linkedin.com/in/florian-bennetot-6a367715b/">linkedin</a>
+						<a target="_blank" href="https://www.linkedin.com/in/florian-bennetot-6a367715b/">
+							<i class="icon fa fa-linkedin"></i>
+						</a>
 					</li>
 					<li>
-						<a target="_blank" href="https://github.com/FirelightFlagboy">github</a>
+						<a target="_blank" href="https://github.com/FirelightFlagboy">
+							<i class="icon fa fa-github"></i>
+						</a>
 					</li>
 					<li>
-						<a target="_blank" href="https://twitter.com/florianbennetot">twitter</a>
+						<a target="_blank" href="https://twitter.com/florianbennetot">
+							<i class="icon fa fa-twitter"></i>
+						</a>
 					</li>
 				</ul>
 			</div>
@@ -86,6 +121,6 @@
 			</div>
 		</footer>
 	</div>
-	</body>
+</body>
 
 </html>

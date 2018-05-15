@@ -3,6 +3,9 @@
 
 <head>
 	<meta charset="utf-8" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+	    crossorigin="anonymous">
 	<link rel="stylesheet" href="main.css" />
 	<title>Florian Bennetot</title>
 </head>
@@ -12,15 +15,14 @@
 		<!-- header of the site -->
 		<header>
 
-			<!-- <object id="logo42" data="img/42_logo.svg" type="image/svg+xml">
+			<object id="logo42" data="img/42_logo.svg" type="image/svg+xml" width="60px" height="60px">
 				<img src="img/42_logo.png" alt="logo de 42">
-			</object> -->
-
+			</object>
 			<h1 id="main_title">Mon Site</h1>
 			<nav id="menu_nav">
 				<ul>
 					<li>
-						<a class="index_nav"href="index.html">Acceuil</a>
+						<a class="index_nav" href="index.html">Acceuil</a>
 					</li>
 					<li>
 						<a class="index_nav" href="blog.html">Blog</a>
@@ -38,22 +40,82 @@
 
 		<div id="banner"></div>
 		<!-- home page article -->
-		<section>
-
+		<section class="article">
+			<header class="major">
+				<h2>Contacter Nous</h2>
+			</header>
+			<form class="mailto" action="mailto:fbenneto@student.42.fr" method="post">
+				<!-- Firt name input -->
+				<div class="input-group mb-3 input_mail">
+					<div class="input-group-prepend">
+						<span class="input-group-text">Prenom</span>
+					</div>
+					<input type="text" class="form-control" placeholder="Prenom" aria-label="Username" aria-describedby="basic-addon1">
+				</div>
+				<!-- email input -->
+				<div class="input-group mb-3 input_mail">
+					<div class="input-group-prepend">
+						<span class="input-group-text">email</span>
+					</div>
+					<input type="text" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1">
+				</div>
+				<!-- title input -->
+				<div class="input-group mb-3 input_mail">
+					<div class="input-group-prepend">
+						<span class="input-group-text">Titre</span>
+					</div>
+					<input type="text" class="form-control" placeholder="Titre" aria-label="Username" aria-describedby="basic-addon1">
+				</div>
+				<!-- text area -->
+				<div class="input-group text_mail">
+					<div class="input-group-prepend">
+						<span class="input-group-text">Contenue</span>
+					</div>
+					<textarea class="form-control" aria-label="With textarea"></textarea>
+				</div>
+				<!-- button -->
+				<div class="row">
+					<div>
+						<button type="reset" class="btn btn-outline-danger">
+							<i class="fa fa-refresh"></i> Reset</button>
+					</div>
+					<div>
+						<button type="submit" class="btn btn-outline-primary">
+							<i class="fa fa-paper-plane"></i> Submit</button>
+					</div>
+				</div>
+			</form>
 		</section>
 		<!-- footer of the site -->
-		<footer>
+		<footer id="main_footer">
 			<div id="uselink">
 				<h3>Réseau sociaux :</h3>
-				<ul>
-				<li><a href="https://www.linkedin.com/in/florian-bennetot-6a367715b/">linkedin</a></li>
-				<li><a href="https://github.com/FirelightFlagboy">github</a></li>
+				<ul class="social">
+					<li>
+						<a target="_blank" href="https://www.linkedin.com/in/florian-bennetot-6a367715b/">
+							<i class="icon fa fa-linkedin"></i>
+						</a>
+					</li>
+					<li>
+						<a target="_blank" href="https://github.com/FirelightFlagboy">
+							<i class="icon fa fa-github"></i>
+						</a>
+					</li>
+					<li>
+						<a target="_blank" href="https://twitter.com/florianbennetot">
+							<i class="icon fa fa-twitter"></i>
+						</a>
+					</li>
 				</ul>
 			</div>
 			<div id="contact">
-				<h3>Coordonée :</h3>
-				<p>mail : <a id="mailme" href="mailto:fbenneto@student.42.fr">fbenneto@student.42.fr</a></p>
-				<p>phone number : <a id="telnum" href="tel:+33651279830">+33651279830</a></p>
+				<h3>Coordonnée :</h3>
+				<p>mail :
+					<a id="mailme" href="mailto:fbenneto@student.42.fr">fbenneto@student.42.fr</a>
+				</p>
+				<p>phone number :
+					<a id="telnum" href="tel:+33651279830">+33651279830</a>
+				</p>
 			</div>
 		</footer>
 	</div>

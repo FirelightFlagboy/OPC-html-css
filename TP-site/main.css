@@ -6,7 +6,7 @@
 /*   By: fbenneto <fbenneto@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/05/14 19:37:07 by fbenneto          #+#    #+#             */
-/*   Updated: 2018/05/15 16:34:46 by fbenneto         ###   ########.fr       */
+/*   Updated: 2018/05/15 16:46:30 by fbenneto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -361,6 +361,7 @@ i.icon
 .text_mail
 {
 	padding-bottom: 20px;
+	/* min-height: 400px; */
 }
 
 @font-face

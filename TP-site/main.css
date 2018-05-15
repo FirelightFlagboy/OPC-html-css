@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.css                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fbenneto <fbenneto@student.42.fr>          +#+  +:+       +#+        */
+/*   By: fbenneto <f.benneto@student.42.fr>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/05/14 19:37:07 by fbenneto          #+#    #+#             */
-/*   Updated: 2018/05/15 16:46:30 by fbenneto         ###   ########.fr       */
+/*   Updated: 2018/05/15 19:28:18 by fbenneto         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -364,6 +364,18 @@ i.icon
 	/* min-height: 400px; */
 }
 
+.page
+{
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.site-content
+{
+	flex: 1;
+	min-height: 100vh
+}
 @font-face
 {
 	font-family: "fontawesome";

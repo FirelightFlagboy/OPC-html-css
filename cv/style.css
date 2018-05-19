@@ -48,12 +48,15 @@ i
 
 a
 {
+    font-weight: normal;
     font-family: helvetica;
     text-decoration: none;
-    color: #555;
+    color: #444;
 }
+
 .list
 {
+    color: #444;
     display: block;
 }
 .list::before
@@ -84,7 +87,25 @@ body
 {
     display: flex
 }
+
 body
 {
     font-family: helvetica;
+}
+
+p
+{
+    color: #444;
+}
+h2
+{
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #444
+}
+
+h3
+{
+    font-weight: normal;
+    color: #428bca;
 }

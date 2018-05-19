@@ -6,7 +6,7 @@
 }
 
 .star {
-    font-style: normal;    
+    font-style: normal;
     font-size: x-large;
     font-size: 1em;
     display: inline-block;
@@ -35,6 +35,13 @@ li
     list-style-type: none;
 }
 
+a
+{
+    padding-left: 5px;
+    font-family: helvetica;
+    text-decoration: none;
+    color: #555;
+}
 .list
 {
     display: block;
@@ -51,6 +58,7 @@ body
 
 #mainP
 {
+    width: 200px;
     height: 100vh;
     border-right: solid 2px rgb(128,128,128);
     padding-right: 20px;

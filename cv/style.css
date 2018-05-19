@@ -1,0 +1,72 @@
+.stars
+{
+    display: inline;
+    font-style: normal;
+    padding-left: 5px;
+}
+
+.star {
+    font-style: normal;    
+    font-size: x-large;
+    font-size: 1em;
+    display: inline-block;
+    color: gray;
+}
+.star:last-child {
+    margin-right: 0;
+}
+.star:before {
+    content:'\2605';
+}
+.star.on {
+    color: gold;
+}
+.star.half:after {
+    content:'\2605';
+    color: gold;
+    position: absolute;
+    margin-left: -1em;
+    max-width: 0.49em;
+    overflow: hidden;
+}
+
+li
+{
+    list-style-type: none;
+}
+
+.list
+{
+    display: block;
+}
+.list::before
+{
+    padding-right: 5px;
+}
+
+body
+{
+    display: flex;
+}
+
+#mainP
+{
+    height: 100vh;
+    border-right: solid 2px rgb(128,128,128);
+    padding-right: 20px;
+}
+
+#content
+{
+    margin-left: 5px;
+    height: 100vh;
+}
+
+#content-main
+{
+    display: flex
+}
+body
+{
+    font-family: helvetica;
+}
